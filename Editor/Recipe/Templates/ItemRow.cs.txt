@@ -1,0 +1,18 @@
+// Created by the ArchNet Hub (Services > Data). This file is yours: change it freely.
+// One row of the Items table (Assets/ArchNet/GameData/Resources/ArchNetData/Items.json).
+// Field names must match the JSON keys. Make one class like this per table.
+// Docs: https://archnet-plateform.fr/#ServiceData
+
+using System;
+
+namespace {{NAMESPACE}}
+{
+    [Serializable]
+    public class ItemRow
+    {
+        public string id;
+        public string name;
+        public int price;
+        public string description;
+    }
+}

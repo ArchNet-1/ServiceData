@@ -1,0 +1,23 @@
+// Created by the ArchNet Hub (Services > Data). This file is yours: change it freely.
+// Your game's tables, read from Assets/ArchNet/GameData/Resources/ArchNetData/*.json:
+//   foreach (ItemRow item in Services.Get<GameData>().Items) …
+//   ItemRow sword = Services.Get<GameData>().Item("sword");
+// Edit the tables: ArchNet > Hub > Services > Data > Open tool
+// Docs: https://archnet-plateform.fr/#ServiceData
+
+using System.Collections.Generic;
+using System.Linq;
+using ArchNet.Service;
+
+namespace {{NAMESPACE}}
+{
+    public class GameData : DataService
+    {
+        public IReadOnlyList<ItemRow> Items => Table<ItemRow>("Items");
+
+        public ItemRow Item(string id) => Items.FirstOrDefault(item => item.id == id);
+
+        // Add one line per table, e.g.:
+        // public IReadOnlyList<EnemyRow> Enemies => Table<EnemyRow>("Enemies");
+    }
+}

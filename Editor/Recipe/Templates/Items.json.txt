@@ -1,0 +1,7 @@
+{
+    "rows": [
+        { "id": "potion", "name": "Health potion", "price": 10, "description": "Restores 50 health." },
+        { "id": "sword", "name": "Iron sword", "price": 120, "description": "A sturdy blade." },
+        { "id": "shield", "name": "Wooden shield", "price": 60, "description": "Blocks the first hit." }
+    ]
+}

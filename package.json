@@ -1,0 +1,17 @@
+{
+  "name": "com.archnet.service.data",
+  "version": "2.0.0",
+  "displayName": "ArchNet - Data Service",
+  "description": "Your game data (items, enemies, levels…) as JSON tables you edit in a window, read in one line with typed classes: Services.Get<GameData>().Items.",
+  "unity": "6000.0",
+  "license": "MIT",
+  "documentationUrl": "https://archnet-plateform.fr/#ServiceData",
+  "changelogUrl": "https://github.com/ArchNet-1/ServiceData/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/ArchNet-1/ServiceData/blob/main/LICENSE.md",
+  "keywords": ["archnet", "service", "data", "json", "table", "database"],
+  "author": {
+    "name": "ArchNet",
+    "email": "archnetmodule@gmail.com",
+    "url": "https://archnet-plateform.fr"
+  }
+}
